@@ -18,7 +18,7 @@ RSpec.describe Activity, type: :model do
   end
 
   it "is valid without a type of process" do
-    subject.title = "Joao"
+    subject.title = "Jose"
     subject.description = "Quero trancar minha matricula pro proximo semestre"
     expect(subject).to_not be_valid
   end
